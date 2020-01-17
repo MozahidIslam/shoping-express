@@ -1,0 +1,2141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/coustom.css"/>
+  <!--link rel="stylesheet" type="text/css" href="css/animate.css"/-->
+  <link rel="stylesheet" type="text/css" href="css/badge.css"/>
+  <link rel="stylesheet" type="text/css" href="css/gellery.css"/>
+  <link rel="stylesheet" type="text/css" href="css/visha.css"/>
+  <link rel="stylesheet" type="text/css" href="css/service-slider.css">
+  <link rel="stylesheet" type="text/css" href="css/client-feedback.css">
+  <link href="css/jquery.classycountdown.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  .button{
+      text-align: center;
+      padding-bottom: 31px;
+  }
+  
+  /* Note: Try to remove the following lines to see the effect of CSS positioning */
+  .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+  .glyphicon.glyphicon-phone {
+
+color:#00c3ff;
+
+}
+.glyphicon.glyphicon-envelope {
+
+color: red;
+
+}
+.glyphicon.glyphicon-map-marker {
+
+color: red;
+
+}
+.col {
+
+overflow: hidden;
+font-size: 20px;
+
+}
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+  .image-wrapper {
+  margin: 0 auto;
+  width:100%;
+  overflow: hidden;
+  font-size: 0;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.image-wrapper:hover img {
+  transform: scale(1.2);
+}
+.rock{
+  padding: 15px;
+}
+.clock{
+  position: relative;
+}
+.roc{
+  
+  position: absolute;
+ 
+ 
+  left: 0;
+  right: 0;
+  margin-top: -166px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+
+
+}
+.clock:hover .roc{
+  opacity: 1;
+}
+.fas.fa-star {
+color: orange;
+
+}
+.fast{
+  margin-top: 40px;
+  padding-top: 55px;
+}
+.mm {
+    position: absolute;
+    top: 40px;
+    background-color: 
+    white;
+    left: 20px;
+    min-width: 51px;
+    text-align: center;
+    font-size: 14px;
+    padding: 1px;
+}
+.pho {
+    color: 
+    white;
+}
+.pencil {
+    padding: 15px;
+    padding-left: 26px;
+    color: #00c3ff;
+    font-size: 41px;
+}
+.pencil-2 {
+    overflow: hidden;
+    margin-top: 10px;
+}
+.carousel-inner {
+position: relative;
+width: 100%;
+overflow: hidden;
+margin-top: -20px;
+
+}
+.om {
+
+line-height: 37px;
+font-size: 17px;
+
+}
+.fab.fa-cc-visa {
+
+font-size: 38px;
+color: 
+
+navy;
+
+}
+.fab.fa-cc-mastercard {
+
+font-size: 38px;
+color: red;
+
+}
+.fab.fa-cc-amex {
+
+font-size: 38px;
+color: blue;
+
+}
+.fab.fa-cc-discover {
+
+color: orange;
+font-size: 38px;
+padding-top: 31px;
+ padding-bottom: 16px;
+padding-bottom: 55px;
+
+}
+
+.input-group {
+    padding-top: 29px;
+}
+.fas.fa-check-circle {
+    padding-right: 13px;
+    color:#304ab0;
+}
+.pencil-5 {
+
+background-color: #549758;
+
+overflow: hidden;
+margin-top: 84px;
+
+}
+.pencil-12 {
+
+overflow: hidden;
+font-size: 22px;
+color: white;
+float: right;
+padding-top: 22px;
+
+}
+.pencil-13 {
+
+overflow: hidden;
+background-color: #5d9575;
+
+color:white;
+
+}
+.penci {
+
+overflow: hidden;
+
+}
+.pencil-121 {
+
+font-size: 30px;
+padding-top: 20px;
+color: #00719d;
+
+}
+.fab.fa-twitter-square {
+
+color: white;
+
+}
+.fab.fa-facebook-square {
+  color: white;
+}
+.fab.fa-instagram {
+
+color: white;
+
+}
+.fab.fa-linkedin {
+
+color: white;
+
+}
+.ClassyCountdown-wrapper {
+
+padding-top: 120px;
+
+}
+.orange-12 {
+
+overflow: hidden;
+background-color: black;
+opacity: 0.7;
+padding-bottom: 127px;
+
+}
+@media screen and (max-width: 768px) {
+  .orange-12{
+    padding-bottom: 27px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ClassyCountdown-wrapper{
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+   .roman, .part-2{
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pencil-12{
+    float:none;
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="penci">
+<section  class="pencil-13" ><!--headding-->
+	<div class="container">
+		<div class="row">
+      <div class="col-sm-6">
+        <h2>Rn-Soft Shop</h2>
+      </div>
+      <div class="col-sm-6">
+        
+        <div class="pencil-12">
+         <a href="#"> <i class="fab fa-twitter-square"></i></a>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+		</div>
+	</div>
+</section><!--ending-->
+    <nav class="navbar navbar-inverse"  data-spy="affix" data-offset-top="197">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">Rn-Soft</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Page 1-1</a></li>
+                 
+                </ul>
+              </li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Block</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><i class="fas fa-search"></i> </a></li>
+              <li><a href="#"><i class="fas fa-heart"></i></a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> </a></li>
+            <!--- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+<div class="slider">
+ 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="img/shoping1.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+          
+          <p>LA is always so much fun!</p>
+          <button class="btn btn-warning">shop Now<i class="fas fa-shopping-cart"></i></button>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/shoping2.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+         
+          <p>Thank you, Chicago!</p>
+          <button class="btn btn-warning">shop Now<i class="fas fa-shopping-cart"></i></button>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="img/shoping2.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+         
+          <p>We love the Big Apple!</p>
+          <button class="btn btn-warning">shop Now<i class="fas fa-shopping-cart"></i></button>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div><!--end sider-->
+
+<section class="part">
+  <div class="container">
+    <div class="row">
+    	<h3></h3>
+      <div class="col-sm-4  ">
+       <div class="icon"><i class="fas fa-truck"></i></div>
+        <h3 class="text-center">Free Shipping</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sapien nisl, rutrum et consectetur in, tincidunt vel justo. Vestibulum ornare venenatis dui ut aliquet. Quisque commodo tortor eu blandit molestie. Integer semper maximus ligula, quis mollis nibh dapibus ut. </p>
+      </div>
+      <div class="col-sm-4">
+       <div class="icon"><i class="fas fa-phone-volume"></i></div>
+        <h3 class="text-center">Support Customer</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sapien nisl, rutrum et consectetur in, tincidunt vel justo. Vestibulum ornare venenatis dui ut aliquet. Quisque commodo tortor eu blandit molestie. Integer semper maximus ligula, quis mollis nibh dapibus ut. </p>
+      </div>
+      <div class="col-sm-4">
+       <div class="icon"> <i class="fas fa-money-check-alt"></i></div>
+        <h3 class="text-center">Secure Payments</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sapien nisl, rutrum et consectetur in, tincidunt vel justo. Vestibulum ornare venenatis dui ut aliquet. Quisque commodo tortor eu blandit molestie. Integer semper maximus ligula, quis mollis nibh dapibus ut. </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section  class="kd ">
+  <h1 class="text-center">New product Arrival</h1>
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-4 md-4 lg-4 ">
+            <div class="thumbnail">
+              <div class="image-wrapper">
+                <img src="img/s1.png" alt="Paris" width="400" height="300">
+              </div>
+                 <p class="text-center"><strong>Price:$30</strong></p>
+                    <p class="text-center">shart<div class="badge1 pulsate">New</div></p>
+                    <div class="button">
+                            <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                        </div>
+            </div>
+        </div>
+        <div class="col-sm-4 md-4 lg-4 ">
+                <div class="thumbnail">
+                  <div class="image-wrapper">
+                    <img src="img/j1.png" alt="Paris" width="400" height="300">
+                  </div>
+                     <p class="text-center"><strong>Price:$30</strong></p>
+                        <p class="text-center">jaket<div class="badge1 pulsate">New</div></p>
+                        <div class="button">
+                                <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                            </div>
+                </div>
+            </div>
+            <div class="col-sm-4 md-4 lg-4 ">
+                    <div class="thumbnail">
+                      <div class="image-wrapper">
+                        <img src="img/s4.png" alt="Paris" width="400" height="300">
+                      </div>
+                         <p class="text-center"><strong>Price:$30</strong></p>
+                         
+                            <p class="text-center">shart <div class="badge1 pulsate">New</div></p>
+                            <div class="button">
+                                    <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                </div>
+                    </div>
+                </div>
+    </div>
+</div>
+</section>
+
+<section>
+        <div class="container">
+        
+            <div class="row">
+                <div class="col-sm-4 md-4 lg-4 ">
+                    <div class="thumbnail">
+                      <div class="image-wrapper">
+                        <img src="img/p1.png" alt="Paris" width="400" height="300">
+                      </div>
+                         <p class="text-center"><strong>Price:$30</strong></p>
+                            <p class="text-center">pant<div class="badge1 pulsate">New</div></p>
+                            <div class="button">
+                                    <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 md-4 lg-4 ">
+                        <div class="thumbnail">
+                          <div class="image-wrapper">
+                            <img src="img/j3.png" alt="Paris" width="400" height="300">
+                          </div>
+                             <p class="text-center"><strong>Price:$30</strong></p>
+                                <p class="text-center">jaket<div class="badge1 pulsate">New</div></p>
+                                <div class="button">
+                                        <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 md-4 lg-4 ">
+                            <div class="thumbnail">
+                              <div class="image-wrapper">
+                                <img src="img/s5.png" alt="Paris" width="400" height="300">
+                              </div>
+                                 <p class="text-center"><strong>Price:$50</strong></p>
+                                    <p class="text-center">Ti-shart<div class="badge1 pulsate">New</div></p>
+                                    <div class="button">
+                                            <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                        </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        </section>
+        <section>
+                <div class="container">
+                
+                    <div class="row">
+                        <div class="col-sm-4 md-4 lg-4 ">
+                            <div class="thumbnail">
+                              <div class="image-wrapper">
+                                <div class="image-wrapper">
+                                  <img src="img/j5.png" alt="Paris" width="400" height="300">
+                                </div>
+                              </div>
+                                
+                                 <p class="text-center"><strong>Price:$30</strong></p>
+                                    <p class="text-center">jaket<div class="badge1 pulsate">New</div></p>
+                                    <div class="button">
+                                            <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 md-4 lg-4 ">
+                                <div class="thumbnail">
+                                  <div class="image-wrapper">
+                                    <img src="img/w1.png" alt="Paris" width="400" height="300">
+                                  </div>
+                                     <p class="text-center"><strong>Price:$20</strong></p>
+                                        <p class="text-center">watch<div class="badge1 pulsate">New</div></p>
+                                        <div class="button">
+                                                <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                            </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 md-4 lg-4 ">
+                                    <div class="thumbnail">
+                                      <div class="image-wrapper">
+                                        <img src="img/w3.png" alt="Paris" width="400" height="300">
+                                      </div>
+                                         <p class="text-center"><strong>Price:$30</strong></p>
+                                            <p class="text-center">watch<div class="badge1 pulsate">New</div></p>
+                                            <div class="button">
+                                            <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+                </section>
+                <section>
+                    <div class="container text-center">
+                        <div class="row">
+                                <ul class="pagination ">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                      </ul>
+                        </div>
+                    </div>
+                </section>
+          <section>
+            <h3 class="text-center"> latest product</h3>
+           <div class="container">
+             <div class="row">
+               <div class="col-sm-3">
+                <div class="thumbnail">
+                  <div class="container1">
+                    <img src="img/w3.png" alt="Paris" width="100%" >
+                    <div class="overlay">
+                      <button class="btn btn-success text">Add to card $37</button>
+                      
+                    </div>
+                  </div>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   </div>
+                </div>
+               </div>
+               <div class="col-sm-3">
+                <div class="thumbnail">
+                  <div class="container1">
+                    <img src="img/w4.png" alt="Paris" width="100%" >
+                    <div class="overlay">
+                      <button class="btn btn-success text">Add to card $25</button>
+                      
+                    </div>
+                  </div>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   </div>
+                </div>
+               </div>
+               <div class="col-sm-3">
+                <div class="thumbnail">
+                  <div class="container1">
+                    <img src="img/p5.png" alt="Paris" width="100%" >
+                    <div class="overlay">
+                      <button class="btn btn-success text">Add to card $35</button>
+                      
+                    </div>
+                  </div>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   </div>
+                </div>
+               </div>
+               <div class="col-sm-3">
+                <div class="thumbnail">
+                  <div class="container1">
+                    <img src="img/p4.png" alt="Paris" width="100%" >
+                    <div class="overlay">
+                      <button class="btn btn-success text">Add to card $30</button>
+                      
+                    </div>
+                  </div>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   </div>
+                </div>
+               </div>
+             </div>
+           </div>
+            
+          </section>     
+
+          <section>
+           <div class="container">
+             <div class="row">
+               <div class="col-sm-3">
+                <div class="thumbnail">
+                  <div class="container1">
+                    <img src="img/j2.png" alt="Paris" width="100%" >
+                    <div class="overlay">
+                      <button class="btn btn-success text">Add to card $30</button>
+                      
+                    </div>
+                  </div>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   </div>
+                </div>
+               </div>
+               <div class="col-sm-3">
+                <div class="thumbnail">
+                  <div class="container1">
+                    <img src="img/shart1.png" alt="Paris" width="100%" >
+                    <div class="overlay">
+                      <button class="btn btn-success text">Add to card $30</button>
+                      
+                    </div>
+                  </div>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   </div>
+                </div>
+               </div>
+               <div class="col-sm-3">
+                <div class="thumbnail">
+                  <div class="container1">
+                    <img src="img/s5.png" alt="Paris" width="100%" >
+                    <div class="overlay">
+                      <button class="btn btn-success text">Add to card $10</button>
+                      
+                    </div>
+                  </div>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   </div>
+                </div>
+               </div>
+               <div class="col-sm-3">
+                <div class="thumbnail">
+                  <div class="container1">
+                    <img src="img/w3.png" alt="Paris" width="100%" >
+                    <div class="overlay">
+                      <button class="btn btn-success text">Add to card $20</button>
+                      
+                    </div>
+                  </div>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   </div>
+                </div>
+               </div>
+             </div>
+           </div>
+            
+          </section> 
+          <section>
+              <div class="container">
+                <div class="row">
+                 <div class="rock"> <h4 class=" text-center">UP TO 70% OFF THE ENTIRE STORE! · MADE WITH LOVE by shoping</h4></div>
+                </div>
+              </div>
+          </section>
+          <section>
+            <h4 class="text-center">
+              New collection  <br>
+               best sellers
+              </h4>
+          </section>
+          <section>
+            <div class="container">
+              <div class="row">
+              	<div class="orange">
+                <div class="orange-12">
+                  <div class="col-sm-6">
+                    <div class="roman"><img src="img/shart1.png" alt="shart" height="300px"width="400px"></div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="part-2">
+                            <h3>UP TO 70% OFF THE ENTIRE STORE! </h3>
+                             <h4>Our Stock is lemeted</h4>
+                             <button class="btn btn-warning">shop Now<i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </section>
+    
+          
+         
+          <section class="fast"><!--new item-->
+            <div class="container">
+              <div class="row">
+                <h2 class="text-center">Top sell theis month</h2>
+                <h5 class="text-center">Stock avalable for sell</h5>
+                <div class="col-sm-4">
+                  <div class="clock">
+                    <div class="thumbnail">
+                      <div class="image-wrapper">
+                        <img src="img/shart1.png" alt="Paris" width="400" height="300">
+                      </div>
+                         <p class="text-center"><strong>Paris</strong></p>
+                         <div class="star text-center">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                         </div>
+                         <div class="roc">
+                            <p class="text-center  pho"><b>price:</b> $20</p>
+                            <div class="button">
+                                    <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                </div>
+                                </div>
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="col-sm-4">
+                  <div class="clock">
+                    <div class="thumbnail">
+                      <div class="image-wrapper">
+                        <img src="img/k33.jpg" alt="Paris" width="400" height="300">
+                      </div>
+                         <p class="text-center"><strong>Paris</strong></p>
+                         <div class="star text-center">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                         </div>
+                         <div class="roc">
+                            <p class="text-center  pho">price: $20</p>
+                            <div class="button">
+                                    <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                </div>
+                                </div>
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="col-sm-4">
+                  <div class="clock">
+                    <div class="thumbnail">
+                      <div class="image-wrapper">
+                        <img src="img/k11.jpg" alt="Paris" width="400" height="300">
+                      </div>
+                         <p class="text-center"><strong>Paris</strong></p>
+                         <div class="star text-center">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                         </div>
+                         <div class="roc">
+                            <p class="text-center  pho">price: $20</p>
+                            <div class="button">
+                                    <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                </div>
+                                </div>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </section><!--end item-->
+          <section><!--new item-->
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="clock">
+                    <div class="thumbnail">
+                      <div class="image-wrapper">
+                        <img src="img/k22.jpg" alt="Paris" width="400" height="300">
+                      </div>
+                         <p class="text-center"><strong>Paris</strong></p>
+                         <div class="star text-center">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                         </div>
+                         <div class="roc">
+                            <p class="text-center  pho">price: $20</p>
+                            <div class="button">
+                                    <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                </div>
+                                </div>
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="col-sm-4">
+                  <div class="clock">
+                    <div class="thumbnail">
+                      <div class="image-wrapper">
+                        <img src="img/s1.png" alt="Paris" width="400" height="300">
+                      </div>
+                         <p class="text-center"><strong>Paris</strong></p>
+                         <div class="star text-center">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                         </div>
+                         <div class="roc">
+                            <p class="text-center  pho">price: $20</p>
+                            <div class="button">
+                                    <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                </div>
+                                </div>
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="col-sm-4">
+                  <div class="clock">
+                    <div class="thumbnail">
+                      <div class="image-wrapper">
+                        <img src="img/j1.png" alt="Paris" width="400" height="300">
+                      </div>
+                         <p class="text-center"><strong>Paris</strong></p>
+                         <div class="star text-center">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                         </div>
+                         <div class="roc">
+                            <p class="text-center  pho">price: $20</p>
+                            <div class="button">
+                                    <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                </div>
+                                </div>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </section><!--end item-->
+          <section><!--new item-->
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="clock">
+                    <div class="thumbnail">
+                      <div class="image-wrapper">
+                        <img src="img/j5.png" alt="Paris" width="400" height="300">
+                      </div>
+                         <p class="text-center"><strong>Paris</strong></p>
+                         <div class="star text-center">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                         </div>
+                         <div class="roc">
+                            <p class="text-center  pho">price: $20</p>
+                            <div class="button">
+                                    <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                </div>
+                                </div>
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="col-sm-4">
+                  <div class="clock">
+                    <div class="thumbnail">
+                      <div class="image-wrapper">
+                        <img src="img/w2.png" alt="Paris" width="400" height="300">
+                      </div>
+                         <p class="text-center  pho"><strong>Paris</strong></p>
+                         <div class="star text-center">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                         </div>
+                         <div class="roc">
+                            <p class="text-center  pho">price: $20</p>
+                            <div class="button">
+                                    <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                </div>
+                                </div>
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="col-sm-4">
+                  <div class="clock">
+                    <div class="thumbnail">
+                      <div class="image-wrapper">
+                        <img src="img/w1.png" alt="Paris" width="400" height="300">
+                      </div>
+                         <p class="text-cente pho"><strong>Paris</strong></p>
+                           <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                           </div>
+                         <div class="roc">
+                            <p class="text-center">price: $40</p>
+                            <div class="button">
+                                    <button type="button" class="btn btn-info ">ADD TO CARD</button>
+                                </div>
+                                </div>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </section><!--end item-->
+          <section class="part-3"><!--srtart 50% off-->
+          	<div class="container">
+          		<div class="row">
+                
+          			<div class="col-sm-6">
+          				
+          				<h3>UP TO 50% OFF THE ENTIRE STORE! </h3>
+          					 <img src="img/j5.png" alt="" />
+          				
+          				
+          				
+          			</div>
+          			<div class="col-sm-6">
+                  
+                  <h3> supper offer Only 7 days this offer</h3>
+                         <div id="countdown1" style="background-color:  #5d9575;"></div>
+
+          			</div>
+          		</div>
+          	</div>
+          </section><!--endf0% off-->
+          <section><!---sleder-->
+            <div class="container">
+              <div class="row">
+                 <div class="servicr-slider">
+   <div class="servicr-slider-1">
+     <h1><strong>Up Comeing product </strong></h1>
+   </div>
+   <div id="mixedSlider">
+       <div class="MS-content">
+       <div class="item">
+        <div class="cards">
+    <div class="cards-1">
+     <img src="img/up4.jpg" alt="Avatar" height="300" style="width:100%">
+     <div class="containers">
+       <h3><b>winter jaket</b></h3> 
+       <p>Afrer 7 days avalable for sales</p>
+     </div>
+     <a href="#">Read More</a>
+    </div>
+   </div>
+    </div>
+      <div class="item">
+       <div class="cards">
+    <div class="cards-1">
+     <img src="img/up3.jpg" alt="Avatar" height="300" style="width:100%">
+     <div class="containers">
+       <h3><b>winter jaket</b></h3> 
+       <p>Afrer 7 days avalable for sales</p>
+     </div>
+     <a href="#">Read More</a>
+    </div>
+   </div>
+      
+       </div>
+      <div class="item">
+     <div class="cards">
+    <div class="cards-1">
+     <img src="img/up2.jpg" alt="Avatar" height="300" style="width:100%">
+     <div class="containers">
+       <h3><b>winter jaket</b></h3> 
+       <p>Afrer 7 days avalable for sales</p>
+     </div>
+      <a href="#">Read More</a>
+    </div>
+   </div>
+ 
+   </div>
+   <div class="item">
+   <div class="cards">
+    <div class="cards-1">
+     <img src="img/up1.jpg" alt="Avatar" height="300" style="width:100%">
+     <div class="containers">
+       <h3><b>winter jaket</b></h3> 
+       <p>Afrer 7 days avalable for sales</p>
+     </div>
+     <a href="#">Read More</a>
+    </div>
+   </div>
+   
+   </div>
+   <div class="item">
+   <div class="cards">
+    <div class="cards-1">
+     <img src="img/up.jpg" alt="Avatar" height="300" style="width:100%">
+     <div class="containers">
+       <h3><b>winter jaket</b></h3> 
+       <p>Afrer 7 days avalable for sales</p>
+     </div>
+     <a href="#">Read More</a>
+    </div>
+   </div>
+    
+     </div>
+                        
+     </div>
+     <div class="MS-controls">
+      <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+     <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+     </div>
+     </div>
+ </div>
+              </div>
+            </div>
+          </section><!--end slider-->
+          <section><!--swich-->
+            <div class="container">
+                             <h2 class="pencil"><ins>Super offer 10% off</ins> </h2>
+              <ul id="filters" class="clearfix">
+                <li><span class="filter active" data-filter=".app, .card, .icon, .logo, .web">All</span></li>
+                <li><span class="filter" data-filter=".app">jaket</span></li>
+                <li><span class="filter" data-filter=".card">Man</span></li>
+                <li><span class="filter" data-filter=".icon">Woman</span></li>
+                <li><span class="filter" data-filter=".logo">childern</span></li>
+                <li><span class="filter" data-filter=".web">Mixt</span></li>
+              </ul>
+          
+              <div id="portfoliolist">
+                
+                <div class="portfolio logo" data-cat="logo">
+                  <div class="portfolio-wrapper">				
+                    <img src="img/portfolios/logo/5.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Bird Document</a>
+                        <span class="text-category">Logo</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>				
+          
+                <div class="portfolio app" data-cat="app">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/j1.png" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Visual Infography</a>
+                        <span class="text-category">jaket</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>		
+                
+                <div class="portfolio web" data-cat="web">
+                  <div class="portfolio-wrapper">						
+                    <img src="img/j1.png" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Sonor's Design</a>
+                        <span class="text-category">Web design</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>				
+                
+                <div class="portfolio card" data-cat="card">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/j1.png" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Typography Company</a>
+                        <span class="text-category">Business card</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>	
+                      
+                <div class="portfolio app" data-cat="app">
+                  <div class="portfolio-wrapper">
+                    <img src="img/j1.png" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Weatherette</a>
+                        <span class="text-category">APP</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>			
+                
+                <div class="portfolio card" data-cat="card">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/j1.png" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">BMF</a>
+                        <span class="text-category">Business card</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>	
+                
+                <div class="portfolio card" data-cat="card">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/j1.png" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Techlion</a>
+                        <span class="text-category">Business card</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>	
+                
+                <div class="portfolio logo" data-cat="logo">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/p1.png" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">KittyPic</a>
+                        <span class="text-category">Logo</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>																																							
+                
+                <div class="portfolio app" data-cat="app">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/j3.png" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Graph Plotting</a>
+                        <span class="text-category">APP</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>														
+                
+                <div class="portfolio card" data-cat="card">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/portfolios/card/2.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">QR Quick Response</a>
+                        <span class="text-category">Business card</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>				
+          
+                <div class="portfolio logo" data-cat="logo">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/portfolios/logo/6.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Mobi Sock</a>
+                        <span class="text-category">Logo</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>																	
+          
+                <div class="portfolio logo" data-cat="logo">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/portfolios/logo/7.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Village Community Church</a>
+                        <span class="text-category">Logo</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>													
+                
+                <div class="portfolio icon" data-cat="icon">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/portfolios/icon/4.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Domino's Pizza</a>
+                        <span class="text-category">Icon</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>							
+          
+                <div class="portfolio web" data-cat="web">
+                  <div class="portfolio-wrapper">						
+                    <img src="img/portfolios/web/3.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Backend Admin</a>
+                        <span class="text-category">Web design</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>																								
+          
+                <div class="portfolio icon" data-cat="icon">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/portfolios/icon/1.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Instagram</a>
+                        <span class="text-category">Icon</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>				
+                
+                <div class="portfolio web" data-cat="web">
+                  <div class="portfolio-wrapper">						
+                    <img src="img/portfolios/web/2.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Student Guide</a>
+                        <span class="text-category">Web design</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>																	
+          
+                <div class="portfolio icon" data-cat="icon">
+                  <div class="portfolio-wrapper">
+                    <img src="img/portfolios/icon/2.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Scoccer</a>
+                        <span class="text-category">Icon</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>																																																																
+          
+                <div class="portfolio icon" data-cat="icon">
+                  <div class="portfolio-wrapper">						
+                    <img src="img/portfolios/icon/5.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">3D Map</a>
+                        <span class="text-category">Icon</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>			
+                
+                <div class="portfolio web" data-cat="web">
+                  <div class="portfolio-wrapper">						
+                    <img src="img/portfolios/web/1.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Note</a>
+                        <span class="text-category">Web design</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>									
+                
+                <div class="portfolio logo" data-cat="logo">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/portfolios/logo/3.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Native Designers</a>
+                        <span class="text-category">Logo</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>																	
+          
+                <div class="portfolio logo" data-cat="logo">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/portfolios/logo/4.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Bookworm</a>
+                        <span class="text-category">Logo</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>																												
+                
+                <div class="portfolio icon" data-cat="icon">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/portfolios/icon/3.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Sandwich</a>
+                        <span class="text-category">Icon</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>																								
+                
+                <div class="portfolio card" data-cat="card">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/portfolios/card/3.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Reality</a>
+                        <span class="text-category">Business card</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>	
+          
+                <div class="portfolio logo" data-cat="logo">
+                  <div class="portfolio-wrapper">			
+                    <img src="img/portfolios/logo/2.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Speciallisterne</a>
+                        <span class="text-category">Logo</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>				
+                              
+                
+              </div>
+              
+            </div><!-- container --> 
+          </section><!--end swch-->
+          <section><!--cilen fedback-->
+               <div class="container">
+                 <div class="row">
+                   <h2 class="text-center pencil"><ins>Client feedback</ins></h2>
+                  <div class="re-1"><!--re-1 start-->
+	   	
+                    <div class="cd-testimonials-wrapper cd-container">
+                      <ul class="cd-testimonials">
+                        <li>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur.</p>
+                          <div class="cd-author">
+                            <img src="img/ronne-sir.jpg" alt="Author image">
+                            <ul class="cd-author-info">
+                              <li>MyName</li>
+                            </ul>
+                            <div class="cat">
+                              <div class="star text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                               </div>
+                            </div>
+                          </div>
+                        </li>
+                    
+                        <li>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur.</p>
+                          <div class="cd-author">
+                            <img src="img/salman.jpg" alt="Author image">
+                            <ul class="cd-author-info">
+                              <li>MyName</li>
+                            </ul>
+                            <div class="cat">
+                              <div class="star text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                               </div>
+                            </div>
+                          </div>
+                        </li>
+                    
+                        <li>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur</p>
+                          <div class="cd-author">
+                            <img src="img/mozahid.jpg" alt="Author image">
+                            <ul class="cd-author-info">
+                              <li>MyName</li>
+                            </ul>
+                            <div class="cat">
+                              <div class="star text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                               </div>
+                            </div>
+                          </div>
+                        </li>
+                        
+                      </ul> <!-- cd-testimonials -->
+                    
+                      <a href="#0" class="cd-see-all">See all</a>
+                    </div> <!-- cd-testimonials-wrapper -->
+                    
+                    <div class="cd-testimonials-all">
+                      <div class="cd-testimonials-all-wrapper">
+                        <ul>
+                          <li class="cd-testimonials-item">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur</p>
+                            
+                            <div class="cd-author">
+                              <img src="img/imran.jpg" alt="Author image">
+                              <ul class="cd-author-info">
+                                <li>MyName</li>
+                              </ul>
+                            </div> <!-- cd-author -->
+                          </li>
+                    
+                          <li class="cd-testimonials-item">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur</p>
+                            
+                            <div class="cd-author">
+                              <img src="img/shams.jpg" alt="Author image">
+                              <ul class="cd-author-info">
+                                <li>MyName</li>
+                              </ul>
+                            </div> <!-- cd-author -->
+                          </li>
+                    
+                          <li class="cd-testimonials-item">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur</p>
+                            
+                            <div class="cd-author">
+                              <img src="img/ronne-sir.jpg" alt="Author image">
+                              <ul class="cd-author-info">
+                                <li>MyName</li>
+                              </ul>
+                            </div> <!-- cd-author -->
+                          </li>
+                    
+                          <li class="cd-testimonials-item">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur </p>
+                            
+                            <div class="cd-author">
+                              <img src="img/rakibul.jpg" alt="Author image">
+                              <ul class="cd-author-info">
+                                <li>MyName</li>
+                              </ul>
+                            </div> <!-- cd-author -->
+                          </li>
+                    
+                          <li class="cd-testimonials-item">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur</p>
+                            
+                            <div class="cd-author">
+                              <img src="img/salman.jpg" alt="Author image">
+                              <ul class="cd-author-info">
+                                <li>MyName</li>
+                              </ul>
+                            </div> <!-- cd-author -->
+                          </li>
+                    
+                          <li class="cd-testimonials-item">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur</p>
+                            
+                            <div class="cd-author">
+                              <img src="img/mozahid.jpg" alt="Author image">
+                              <ul class="cd-author-info">
+                                <li>MyName</li>
+                              </ul>
+                              
+                            </div> <!-- cd-author -->
+                          </li>
+                    
+                        </ul>
+                      </div>	<!-- cd-testimonials-all-wrapper -->
+                    
+                      <a href="#0" class="close-btn">Close</a>
+                    </div> <!-- cd-testimonials-all -->
+                      
+                      </div><!--re-1 end-->
+                    
+                 </div>
+               </div>
+          </section><!--end clined feedback-->
+          <section class="pencil-2"><!--latest News-->
+          	<div class="container">
+          		<div class="row">
+                <h3 class="pencil"><ins>latest news</ins></h3>
+          			<div class="col-sm-4">
+          				<div class="image-wrapper">
+
+                <img src="img/newp.jpg" alt="Paris" width="400" height="300">
+              </div>
+              <div class="mm">
+          						<p>8</p>
+          						<p>jan</p>
+          					</div>
+          					<h3 class="text-center">New items</h3>
+          					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</p>
+          			</div>
+          			<div class="col-sm-4">
+          				<div class="image-wrapper">
+
+                <img src="img/produc.jpg" alt="Paris" width="400" height="300">
+              </div>
+              <div class="mm">
+          						<p>8</p>
+          						<p>jan</p>
+          					</div>
+          					<h3 class="text-center">Quality product</h3>
+          					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</p>
+          			</div>
+          			<div class="col-sm-4">
+          				<div class="image-wrapper">
+
+                <img src="img/deli.jpg" alt="Paris" width="400" height="300">
+              </div>
+              <div class="mm">
+          						<p>8</p>
+          						<p>jan</p>
+          					</div>
+          					<h3 class="text-center"> Quick Parcel Delivery </h3>
+          					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</p>
+          			</div>
+          		</div>
+          		
+          	</div>
+          </section>
+             <section class="pencil-2">
+          	<div class="container">
+          		<div class="row">
+          			<div class="col-sm-4">
+          				<div class="image-wrapper">
+
+                <img src="img/v1.jpg" alt="Paris" width="400" height="300">
+              </div>
+              <div class="mm">
+          						<p>8</p>
+          						<p>jan</p>
+          					</div>
+          					<h3 class="text-center">
+                      Customer satisfaction</h3>
+          					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</p>
+          			</div>
+          			<div class="col-sm-4">
+          				<div class="image-wrapper">
+
+                <img src="img/misson.jpg" alt="Paris" width="400" height="300">
+              </div>
+              <div class="mm">
+          						<p>8</p>
+          						<p>jan</p>
+          					</div>
+          					<h3 class="text-center">Our mission</h3>
+          					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</p>
+          			</div>
+          			<div class="col-sm-4">
+          				<div class="image-wrapper">
+
+                <img src="img/r2.jpg" alt="Paris" width="400" height="300">
+              </div>
+              <div class="mm">
+          						<p>8</p>
+          						<p>jan</p>
+          					</div>
+          					<h3 class="text-center">Our visiton mission</h3>
+          					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .</p>
+          			</div>
+          		</div>
+          		
+          	</div>
+          </section><!--end latest news-->
+          <section class="some"><!--start--->
+          
+            <div class="container">
+              <div class="row">
+                <h2 class="text-center pencil"><ins>Contact Us</ins></h2>
+                <div class="col-sm-6">
+                  <div class="icon"><i class="fas fa-address-card"></i></div><h3 class="text-center">Address</h3>
+                  <div class="col">
+                    <p>Contact us and we'll get back to you within 24 hours.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Ict ,Tangail old busstand,  </p>
+                    <p><span class="glyphicon glyphicon-phone"></span> 01671-817850</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> ronnehasan@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="icon"><i class="fas fa-address-card"></i></div><h3 class="text-center">Conract Us</h3>
+                   <div class="bike">
+                   
+                    <div class="">
+                      <div class="row">
+                        <div class="col-sm-6 form-group">
+                          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                      </div>
+                      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                      <div class="row">
+                        <div class="col-sm-12 form-group">
+                          <button class="btn btn-default pull-right" type="submit">Send</button>
+                        </div>
+                      </div>
+                    </div>
+         </div>
+                </div><!--end contact-->
+               
+              </div>
+            </div>
+                   </section><!--end contac-->
+                   <!--servicer slider-->
+                   <section class="pencil-5"><!--start footer-->
+                           <div class="container">
+                             <div class="row">
+                               <div class="col-sm-3">
+                                 <h3>About Us</h3>
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                 <div class="map">
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.7291340717325!2d89.91753785006722!3d24.25125068426812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fdfbe4c76c67bb%3A0x6facfd5f0a1f1727!2sICT!5e0!3m2!1sbn!2sbd!4v1578995441963!5m2!1sbn!2sbd" width="220" height="150" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                 </div>
+                                 <div class="pencil-121">
+                                  <a href="#"> <i class="fab fa-twitter-square"></i></a>
+                                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                  <a href="#"><i class="fab fa-instagram"></i></a>
+                                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                               </div>
+                               <div class="col-sm-3">
+                                 <h3>Our Service</h3>
+                                 <p class="om"><i class="fas fa-check-circle"></i>Free Shipping</p class="om">
+                                 <p class="om"><i class="fas fa-check-circle"></i>Support Customer</p class="om">
+                                 <p class="om"><i class="fas fa-check-circle"></i>Secure Payments</p class="om">
+                                 <p class="om"><i class="fas fa-check-circle"></i>Quality product</p class="om">
+                                 <p class="om"><i class="fas fa-check-circle"></i>New items</p class="om">
+                                
+                                
+                               </div>
+                               <div class="col-sm-3">
+                                  <h3>Help</h3>
+                            
+                                  <p class="om"><i class="fas fa-check-circle"></i>Shipping Information</p>
+                                  <p class="om"><i class="fas fa-check-circle"></i>Returns & Exchange</p class="om">
+                                  <p class="om"><i class="fas fa-check-circle"></i>Terms & Conditions</p class="om">
+                                  <p class="om"><i class="fas fa-check-circle"></i>Privacy Policy</p class="om">
+                                  <p class="om"><i class="fas fa-check-circle"></i>Contact Us</p class="om">
+                                 
+                               </div>
+                               <div class="col-sm-3">
+                                <h3>Newsletter</h3>
+                                <p>
+                              
+                              You can trust us. we only send super offers</p>
+                                <form>
+                                  <div class="input-group">
+                                    <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+                                    <div class="input-group-btn">
+                                      <button type="button" class="btn btn-danger">Subscribe</button>
+                                    </div>
+                                  </div>
+                                </form>
+
+                                <i class="fab fa-cc-visa"></i>
+                                <i class="fab fa-cc-mastercard"></i>
+                                <i class="fab fa-cc-amex"></i>
+                                <i class="fab fa-cc-discover"></i>
+                             </div>
+                             </div>
+                           </div>
+                           <div class="container">
+                             <div class="row">
+                               <p class="text-center">© Copyright 2020</p>
+                             </div>
+
+                           </div>
+                   </section><!--end fotter-->
+                  </div>
+                   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
+<script src="js/multislider.js"></script> 
+<script>
+$('#basicSlider').multislider({
+			continuous: true,
+			duration: 2000
+		});
+		$('#mixedSlider').multislider({
+			duration: 750,
+			interval: 3000
+		});
+</script>
+                   <!--end service slider-->
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script><!--counter timrer-->
+<script src="js/jquery.knob.js"></script>
+<script src="js/jquery.throttle.js"></script>
+<!--script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/jquery-2.1.1.js"--></script><!--clent sider cdn-->
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/masonry.pkgd.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/jquery.flexslider-min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/main.js"></script><!--end-->
+
+<script src="js/jquery.classycountdown.js"></script><!--end timer-->
+
+<script>
+                                        $(document).ready(function() {
+                                            $('#countdown15').ClassyCountdown({
+                                                theme: "flat-colors",
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown16').ClassyCountdown({
+                                                theme: "flat-colors-wide",
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown17').ClassyCountdown({
+                                                theme: "flat-colors-very-wide",
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown18').ClassyCountdown({
+                                                theme: "flat-colors-black",
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown1').ClassyCountdown({
+                                                theme: "white",
+                                                end: $.now() + 645600
+                                            });
+                                            $('#countdown5').ClassyCountdown({
+                                                theme: "white",
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown6').ClassyCountdown({
+                                                theme: "white-wide",
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown7').ClassyCountdown({
+                                                theme: "white-very-wide",
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown8').ClassyCountdown({
+                                                theme: "white-black",
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown11').ClassyCountdown({
+                                                theme: "black",
+                                                style: {
+                                                    secondsElement: {
+                                                        gauge: {
+                                                            fgColor: "#F00"
+                                                        }
+                                                    }
+                                                },
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown12').ClassyCountdown({
+                                                theme: "black-wide",
+                                                labels: false,
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown13').ClassyCountdown({
+                                                theme: "black-very-wide",
+                                                labelsOptions: {
+                                                    lang: {
+                                                        days: 'D',
+                                                        hours: 'H',
+                                                        minutes: 'M',
+                                                        seconds: 'S'
+                                                    },
+                                                    style: 'font-size:0.5em; text-transform:uppercase;'
+                                                },
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown14').ClassyCountdown({
+                                                theme: "black-black",
+                                                labelsOptions: {
+                                                    style: 'font-size:0.5em; text-transform:uppercase;'
+                                                },
+                                                end: $.now() + 10000
+                                            });
+                                            $('#countdown4').ClassyCountdown({
+                                                end: $.now() + 10000,
+                                                labels: true,
+                                                style: {
+                                                    element: "",
+                                                    textResponsive: .5,
+                                                    days: {
+                                                        gauge: {
+                                                            thickness: .03,
+                                                            bgColor: "rgba(255,255,255,0.05)",
+                                                            fgColor: "#1abc9c"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#fff;'
+                                                    },
+                                                    hours: {
+                                                        gauge: {
+                                                            thickness: .03,
+                                                            bgColor: "rgba(255,255,255,0.05)",
+                                                            fgColor: "#2980b9"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#fff;'
+                                                    },
+                                                    minutes: {
+                                                        gauge: {
+                                                            thickness: .03,
+                                                            bgColor: "rgba(255,255,255,0.05)",
+                                                            fgColor: "#8e44ad"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#fff;'
+                                                    },
+                                                    seconds: {
+                                                        gauge: {
+                                                            thickness: .03,
+                                                            bgColor: "rgba(255,255,255,0.05)",
+                                                            fgColor: "#f39c12"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#fff;'
+                                                    }
+
+                                                },
+                                                onEndCallback: function() {
+                                                    console.log("Time out!");
+                                                }
+                                            });
+                                            $('#countdown2').ClassyCountdown({
+                                                end: '1388468325',
+                                                now: '1378441323',
+                                                labels: true,
+                                                style: {
+                                                    element: "",
+                                                    textResponsive: .5,
+                                                    days: {
+                                                        gauge: {
+                                                            thickness: .01,
+                                                            bgColor: "rgba(0,0,0,0.05)",
+                                                            fgColor: "#1abc9c"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    },
+                                                    hours: {
+                                                        gauge: {
+                                                            thickness: .01,
+                                                            bgColor: "rgba(0,0,0,0.05)",
+                                                            fgColor: "#2980b9"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    },
+                                                    minutes: {
+                                                        gauge: {
+                                                            thickness: .01,
+                                                            bgColor: "rgba(0,0,0,0.05)",
+                                                            fgColor: "#8e44ad"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    },
+                                                    seconds: {
+                                                        gauge: {
+                                                            thickness: .01,
+                                                            bgColor: "rgba(0,0,0,0.05)",
+                                                            fgColor: "#f39c12"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    }
+
+                                                },
+                                                onEndCallback: function() {
+                                                    console.log("Time out!");
+                                                }
+                                            });
+                                            $('#countdown9').ClassyCountdown({
+                                                end: '1388468325',
+                                                now: '1380501323',
+                                                labels: true,
+                                                style: {
+                                                    element: "",
+                                                    textResponsive: .5,
+                                                    days: {
+                                                        gauge: {
+                                                            thickness: .05,
+                                                            bgColor: "rgba(0,0,0,0)",
+                                                            fgColor: "#1abc9c",
+                                                            lineCap: 'round'
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    },
+                                                    hours: {
+                                                        gauge: {
+                                                            thickness: .05,
+                                                            bgColor: "rgba(0,0,0,0)",
+                                                            fgColor: "#2980b9",
+                                                            lineCap: 'round'
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    },
+                                                    minutes: {
+                                                        gauge: {
+                                                            thickness: .05,
+                                                            bgColor: "rgba(0,0,0,0)",
+                                                            fgColor: "#8e44ad",
+                                                            lineCap: 'round'
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    },
+                                                    seconds: {
+                                                        gauge: {
+                                                            thickness: .05,
+                                                            bgColor: "rgba(0,0,0,0)",
+                                                            fgColor: "#f39c12",
+                                                            lineCap: 'round'
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    }
+
+                                                },
+                                                onEndCallback: function() {
+                                                    console.log("Time out!");
+                                                }
+                                            });
+                                            $('#countdown10').ClassyCountdown({
+                                                end: '1397468325',
+                                                now: '1388471324',
+                                                labels: true,
+                                                labelsOptions: {
+                                                    lang: {
+                                                        days: 'D',
+                                                        hours: 'H',
+                                                        minutes: 'M',
+                                                        seconds: 'S'
+                                                    },
+                                                    style: 'font-size:0.5em; text-transform:uppercase;'
+                                                },
+                                                style: {
+                                                    element: "",
+                                                    textResponsive: .5,
+                                                    days: {
+                                                        gauge: {
+                                                            thickness: .02,
+                                                            bgColor: "rgba(255,255,255,0.1)",
+                                                            fgColor: "rgba(255,255,255,1)",
+                                                            lineCap: 'round'
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                                                    },
+                                                    hours: {
+                                                        gauge: {
+                                                            thickness: .02,
+                                                            bgColor: "rgba(255,255,255,0.1)",
+                                                            fgColor: "rgba(255,255,255,1)",
+                                                            lineCap: 'round'
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                                                    },
+                                                    minutes: {
+                                                        gauge: {
+                                                            thickness: .02,
+                                                            bgColor: "rgba(255,255,255,0.1)",
+                                                            fgColor: "rgba(255,255,255,1)",
+                                                            lineCap: 'round'
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                                                    },
+                                                    seconds: {
+                                                        gauge: {
+                                                            thickness: .02,
+                                                            bgColor: "rgba(255,255,255,0.1)",
+                                                            fgColor: "rgba(255,255,255,1)",
+                                                            lineCap: 'round'
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                                                    },
+                                                },
+                                                onEndCallback: function() {
+                                                    console.log("Time out!");
+                                                }
+                                            });
+                                            $('#countdown3').ClassyCountdown({
+                                                end: '1390868325',
+                                                now: '1388461323',
+                                                labels: true,
+                                                labelsOptions: {
+                                                    lang: {
+                                                        days: 'Zile',
+                                                        hours: 'Ore',
+                                                        minutes: 'Minute',
+                                                        seconds: 'Secunde'
+                                                    },
+                                                    style: 'font-size:0.5em; text-transform:uppercase;'
+                                                },
+                                                style: {
+                                                    element: "",
+                                                    textResponsive: .5,
+                                                    days: {
+                                                        gauge: {
+                                                            thickness: .2,
+                                                            bgColor: "rgba(255,255,255,0.2)",
+                                                            fgColor: "rgb(241, 196, 15)"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                                                    },
+                                                    hours: {
+                                                        gauge: {
+                                                            thickness: .2,
+                                                            bgColor: "rgba(255,255,255,0.2)",
+                                                            fgColor: "rgb(241, 196, 15)"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                                                    },
+                                                    minutes: {
+                                                        gauge: {
+                                                            thickness: .2,
+                                                            bgColor: "rgba(255,255,255,0.2)",
+                                                            fgColor: "rgb(241, 196, 15)"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                                                    },
+                                                    seconds: {
+                                                        gauge: {
+                                                            thickness: .2,
+                                                            bgColor: "rgba(255,255,255,0.2)",
+                                                            fgColor: "rgb(241, 196, 15)"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                                                    }
+
+                                                },
+                                                onEndCallback: function() {
+                                                    console.log("Time out!");
+                                                }
+                                            });
+                                        });
+                                    </script><!--conter-->
+  <!--script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script-->
+  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      
+      var filterList = {
+      
+        init: function () {
+        
+          // MixItUp plugin
+          // http://mixitup.io
+          $('#portfoliolist').mixItUp({
+            selectors: {
+              target: '.portfolio',
+              filter: '.filter'	
+            },
+            load: {
+              filter: '.app'  
+            }     
+          });								
+        
+        }
+  
+      };
+      
+      // Run the show!
+      filterList.init();
+      
+      
+    });	
+    </script>
+</body>
+</html>

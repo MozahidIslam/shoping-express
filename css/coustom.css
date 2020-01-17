@@ -1,0 +1,74 @@
+.orange{ background-image:url("../img/bag.jfif");
+         background-attachment: fixed; 
+         background-size: 100% 100%;  
+         background-repeat: no-repeat;
+         height: 500px;
+         width: 100% 100%;
+
+
+}
+.fas.fa-truck {
+    text-align: center;
+    font-size: 41px;
+    color: 
+    orange;
+    padding: 23px;
+   
+}
+.fas.fa-phone-volume {
+    text-align: center;
+    font-size: 41px;
+    color: 
+    orange;
+    padding: 23px;
+   
+}
+.fas.fa-money-check-alt {
+    text-align: center;
+    font-size: 41px;
+    color: 
+    orange;
+    padding: 23px;
+}
+.icon {
+    width: 93px;
+    border-radius: 100%;
+    background-color: 
+    black;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+     
+    margin-top: 40px;
+}
+.kd {
+    padding-top: 67px;
+}
+.part {
+    background-color:#5a8858;
+    padding-bottom: 88px;
+    color:white;
+    overflow: hidden;
+}
+.roman {
+    overflow: hidden;
+    padding-top: 73px;
+}
+.part-2 {
+    overflow: hidden;
+    padding-top: 103px;
+    color: wheat;
+}
+.fas.fa-shopping-cart {
+    padding-left: 12px;
+}
+.part-3 {
+
+    padding-top: 30px;
+    overflow: hidden;
+    background-color: 
+
+    #5d9575;
+    margin-top: 77px;
+
+}
